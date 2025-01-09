@@ -32,6 +32,9 @@ public class amazon {
 		{
 			String text = list.get(i).getText();
 			System.out.println(text);
+			System.out.println("Print the cart");
+			System.out.println("Print the cart1");
+			System.out.println("Print the cart2");
 		
 		}
 		driver.manage().timeouts().implicitlyWait(30,TimeUnit.SECONDS);
